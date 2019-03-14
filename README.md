@@ -94,8 +94,8 @@ Control the directional pad inputs with a joystick. D-pad directions should be t
 
 Hardware you must use (you are not allowed to use anything else):  
     - Joystick   
-    - A second Teensy LC microcontroller, which you can program as you wish.
-    - Wires
+    - A second Teensy LC microcontroller, which you can program as you wish.  
+    - Wires  
 
 
 ### Hack 2 (10 points)
@@ -113,7 +113,7 @@ Control the joystick inputs with a directional pad. The 4 d-pad switches must im
 
 Hardware you must use (you are not allowed to use anything else):  
     - 4 tactile switches  
-    - Resistors (as many as you need)
+    - Resistors (as many as you need)  
     - Wires
 
 N.B:  
@@ -124,7 +124,7 @@ N.B:
 Control the joystick inputs with a directional pad. The 4 d-pad switches must imitate the behavior of the joystick when it is moved halfway along their respective directions (ex: the UP switch makes the joystick go halfway of its maximum range in the NORTH direction). The implementation must allow combinations of X and Y inputs (ex: pressing up and right at the same time make the joystick go halfway of its maximum range in the NORTH-EAST direction). You may not alter the firmware on the computing node. Your solution must be an addition of external components.
 
 Hardware you must use (you are not allowed to use anything else):  
-    - A second Teensy LC microcontroller
+    - A second Teensy LC microcontroller  
     - Resistors (as many as you need)  
     - Capacitors (as many as you need)  
     - Wires

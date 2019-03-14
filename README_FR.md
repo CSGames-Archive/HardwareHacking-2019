@@ -90,9 +90,9 @@ Branchez le microcontrôleur dans le port usb de votre PC et flashez le avec le f
 Contrôlez les entrées de la croix directionnelle avec un joystick. Les directions de la croix devraient être déclenchées lorsque le joystick dépasse la moitié du seuil d'activation maximal dans une direction donnée. Vous ne pouvez pas altérer le firmware du système principal; votre solution doit être une addition de composantes externes.
 
 Composantes que vous devez utiliser (vous n'avez pas le droit d'ajouter autre chose):  
-    - Joystick
-    - Un deuxième microcontrôleur
-    - Fils
+    - Joystick  
+    - Un deuxième microcontrôleur  
+    - Fils  
 
 
 ### Hack 2 (10 points)
@@ -100,18 +100,18 @@ Composantes que vous devez utiliser (vous n'avez pas le droit d'ajouter autre ch
 Contrôlez les entrées de la croix directionnelle avec un joystick. Les directions de la croix devraient être déclenchées lorsque le joystick dépasse la moitié du seuil d'activation maximal dans une direction donnée. Vous ne pouvez pas altérer le firmware du système principal; votre solution doit être une addition de composantes externes.
 
 Composantes que vous devez utiliser (vous n'avez pas le droit d'ajouter autre chose):  
-    - Comparateur analogue LM339 (datasheet: /Datasheets/lm339.pdf)
-    - Résistances
-    - Fils
+    - Comparateur analogue LM339 (datasheet: /Datasheets/lm339.pdf)  
+    - Résistances  
+    - Fils  
 
 ### Hack 3 (5 points)
 
 Contrôlez les entrées du joystick avec une croix directionnelle. Les 4 boutons tactiles doivent imiter le comportement du joystick lorsqu'il se trouve à 50% de son seuil d'activation maximal (ex: le bouton UP déclenche un mouvement de 50% en direction NORD dans le logiciel de test). Votre implémentation doit permettre la combinaison de direction verticales et horizontales (ex: UP et DROITE en même temps déclenchent un mouvement de 50% direction NORD-EST). Vous ne pouvez pas altérer le firmware du système principal; votre solution doit être une addition de composantes externes.
 
 Composantes que vous devez utiliser (vous n'avez pas le droit d'ajouter autre chose):  
-    - 4 interrupteurs tactiles
-    - Résistances
-    - Fils
+    - 4 interrupteurs tactiles  
+    - Résistances  
+    - Fils  
 
 N.B:  
 - Lorsque les pins d'entrée des axes X et Y sont flottantes, le gamepad affiche une position neutre. 
@@ -121,10 +121,10 @@ N.B:
 Contrôlez les entrées du joystick avec une croix directionnelle. Les 4 boutons tactiles doivent imiter le comportement du joystick lorsqu'il se trouve à 50% de son seuil d'activation maximal (ex: le bouton UP déclenche un mouvement de 50% en direction NORD dans le logiciel de test). Votre implémentation doit permettre la combinaison de direction verticales et horizontales (ex: UP et DROITE en même temps déclenchent un mouvement de 50% direction NORD-EST). Vous ne pouvez pas altérer le firmware du système principal; votre solution doit être une addition de composantes externes.
 
 Composantes que vous devez utiliser (vous n'avez pas le droit d'ajouter autre chose):  
-    - Un autre microcontrôleur
-    - Résistances
-    - Condensateurs
-    - Fils
+    - Un autre microcontrôleur  
+    - Résistances  
+    - Condensateurs  
+    - Fils  
 
 N.B:  
 - Lorsque les pins d'entrée des axes X et Y sont flottantes, le gamepad affiche une position neutre. 
