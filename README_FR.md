@@ -64,9 +64,11 @@ Le dossier */Datasheets/* contient des documents techniques et des instructions 
 
 Des fichiers *.ino* de base sont fournis pour les hacks qui requièrent de la programmation. Ils contiennent des fonctions utiles.
 
+Les joysticks fournis ont un intervalle anormal. Leur intervalle électrique se termine à environs 50% de leur intervalle physique. Quand on parle de bouger d'un certain pourcentage le long d'une axe du joystick, on parle de son intervalle électrique et non physique.  
+
 Certains hacks demandent des entrées de boutons tactiles. Vous n'avez pas besoin de faire un anti-rebond (debounce).
 
-Les rails d'alimentation sur le breadboard sont discontinues au centre. Connectez les deux moitiés pour avoir un rail continu.
+Les rails d'alimentation sur le breadboard sont discontinus au centre. Connectez les deux moitiés pour avoir un rail continu.
 
 Si vous avez des problèmes lors du set-up d'une section, demandez de l'aide. Ne perdez pas votre temps sur la configuration SVP.
 
@@ -180,11 +182,11 @@ Comme mentionné précédemment, vous ne pouvez pas altérer les circuits électrique
 
 Voici les 3 dysfonctionnalités à implémenter:
 
-- Pendant 5 secondes, la manette agit normalement.
-- Pendant 5 secondes, les axes X et Y sont inversés (X perçu comme y et vice-versa). 
-- Pendant 5 secondes, la manette n'envoit que des positions de joystick neutres.
+- Pendant 2 secondes, la manette agit normalement.
+- Pendant 2 secondes, les axes X et Y sont inversés (X perçu comme y et vice-versa). 
+- Pendant 2 secondes, la manette n'envoit que des positions de joystick neutres.
 
-Itérez à travers ces 3 modes infiniment dans des cycles de 15 secondes. 
+Itérez à travers ces 3 modes infiniment dans des cycles de 6 secondes. 
 
 Voici un exemple de signaux que vous devriez observer avec l'analyseur logique:
 ![Hack6 Capture](img/hack6_capture.png)

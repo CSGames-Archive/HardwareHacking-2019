@@ -65,6 +65,8 @@ The */Datasheets/* folder contains useful datasheets and directions on how to pr
 
 *.ino* files are provided for the hacks that require coding. They contain useful utilitary functions.  
 
+The provided joysticks have an abnormal range. Their electrical range actually spans around 50% of their physical range. When we talk about moving the joystick along an axis by a certain percentage, we're referring to the electrical range and not the physical range.
+
 Some hacks require button inputs. You do not need to debounce them.
 
 The breadboard's power rails are split in the middle. Connect both halves with a jumper to get continuous power rails.
@@ -183,11 +185,11 @@ As mentioned above, you cannot change the electronic circuit. The only way to im
 
 There are 3 dysfunctionalities you must implement:
 
-- For 5 seconds, the controller acts normally.
-- For 5 seconds, the X axis and Y axis are inverted (X is perceived as Y and vice-versa).
-- For 5 seconds, the controller only sends neutral joystick positions.
+- For 2 seconds, the controller acts normally.
+- For 2 seconds, the X axis and Y axis are inverted (X is perceived as Y and vice-versa).
+- For 2 seconds, the controller only sends neutral joystick positions.
 
-Loop through them indefinitely in 15 second cycles.
+Loop through them indefinitely in 6 second cycles.
 
 Here is a sample of the signals you should acquire with the logic analyzer:
 ![Hack6 Capture](img/hack6_capture.png)
